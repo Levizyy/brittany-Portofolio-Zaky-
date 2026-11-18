@@ -1,0 +1,9 @@
+{
+  "name": "Zaky",
+  "title": "Web Developer Pemula",
+  "tagline": "Sedang belajar membuat pengalaman web yang responsif dengan HTML, CSS, JavaScript, dan PHP.",
+  "bio": "Saya sedang belajar membuat website responsif dan aplikasi web sederhana.\nSaya membangun dasar HTML, CSS, dan JavaScript sambil mengenal PHP, Laravel, serta MySQL.\nSaya belajar setahap demi setahap lewat latihan dan proyek kecil.",
+  "availability": "Terbuka untuk Kesempatan Belajar",
+  "stats": { "years": "0+", "projects": "0+", "clients": "0+" },
+  "traits": ["Kode Rapi", "UI/UX", "Pemecah Masalah", "Open Source", "Cepat Belajar", "Kolaboratif"]
+}
