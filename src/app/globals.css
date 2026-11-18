@@ -108,6 +108,7 @@ body.hovering .cursor-ring {
     var(--teal) 338deg,
     transparent 360deg
   );
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -529,6 +530,7 @@ textarea {
   display: block;
   margin-top: 12px;
   background: linear-gradient(110deg, var(--blue), var(--violet) 58%, var(--teal));
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200% auto;
@@ -612,6 +614,7 @@ textarea {
   font-size: 1.7rem;
   font-weight: 700;
   background: linear-gradient(135deg, var(--blue), var(--teal));
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

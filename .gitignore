@@ -26,4 +26,6 @@ next-env.d.ts
 # Editor and OS files
 .vscode/*
 !.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
 .DS_Store
