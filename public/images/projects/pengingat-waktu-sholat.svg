@@ -1,33 +1,81 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" fill="none">
   <defs>
-    <linearGradient id="bg" x1="38" y1="12" x2="675" y2="416" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#172039"/>
-      <stop offset="1" stop-color="#172E3A"/>
+    <linearGradient id="background" x1="33" y1="20" x2="683" y2="407" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#11182F"/>
+      <stop offset=".52" stop-color="#19284A"/>
+      <stop offset="1" stop-color="#164044"/>
     </linearGradient>
-    <linearGradient id="glow" x1="186" y1="78" x2="521" y2="355" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#00D9C0" stop-opacity=".23"/>
-      <stop offset="1" stop-color="#93E3C0" stop-opacity=".025"/>
+    <linearGradient id="phoneScreen" x1="94" y1="55" x2="332" y2="379" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C344B"/>
+      <stop offset="1" stop-color="#142437"/>
+    </linearGradient>
+    <linearGradient id="nextPrayer" x1="377" y1="163" x2="649" y2="297" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#245E63"/>
+      <stop offset="1" stop-color="#243D58"/>
     </linearGradient>
   </defs>
-  <rect width="720" height="420" rx="26" fill="url(#bg)"/>
-  <circle cx="359" cy="213" r="196" fill="url(#glow)"/>
-  <rect x="38" y="34" width="644" height="352" rx="20" fill="#0D1526" fill-opacity=".66" stroke="#FFFFFF" stroke-opacity=".12"/>
-  <circle cx="67" cy="62" r="5" fill="#FF7187"/>
-  <circle cx="84" cy="62" r="5" fill="#FFC66D"/>
-  <circle cx="101" cy="62" r="5" fill="#00D9C0"/>
-  <rect x="58" y="88" width="604" height="278" rx="14" fill="#122332" fill-opacity=".74" stroke="#FFFFFF" stroke-opacity=".08"/>
-  <path d="M354 110c-27 0-48 21-48 48v13h96v-13c0-27-21-48-48-48Z" fill="#00D9C0" fill-opacity=".16"/>
-  <path d="M327 172h54m-44-11 17-28m27 28-17-28" stroke="#65E5D1" stroke-width="3" stroke-linecap="round"/>
-  <rect x="281" y="190" width="146" height="11" rx="5.5" fill="#FFFFFF" fill-opacity=".88"/>
-  <rect x="312" y="208" width="84" height="6" rx="3" fill="#FFFFFF" fill-opacity=".32"/>
-  <circle cx="352" cy="277" r="48" stroke="#FFFFFF" stroke-opacity=".12" stroke-width="9"/>
-  <path d="M352 229a48 48 0 0 1 43 27" stroke="#00D9C0" stroke-width="9" stroke-linecap="round"/>
-  <path d="M352 277v-26m0 26 18 11" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-  <circle cx="352" cy="277" r="4" fill="#00D9C0"/>
-  <rect x="92" y="320" width="536" height="25" rx="12.5" fill="#FFFFFF" fill-opacity=".045"/>
-  <circle cx="151" cy="332.5" r="4" fill="#A7B2C7"/>
-  <circle cx="251" cy="332.5" r="4" fill="#A7B2C7"/>
-  <circle cx="352" cy="332.5" r="5" fill="#00D9C0"/>
-  <circle cx="452" cy="332.5" r="4" fill="#A7B2C7"/>
-  <circle cx="553" cy="332.5" r="4" fill="#A7B2C7"/>
+  <rect width="720" height="420" rx="26" fill="url(#background)"/>
+  <circle cx="595" cy="82" r="141" fill="#6FE0C5" fill-opacity=".08"/>
+  <circle cx="638" cy="76" r="31" fill="#F4D99A"/>
+  <circle cx="652" cy="62" r="30" fill="#192844"/>
+  <circle cx="555" cy="101" r="2" fill="#E5EAC8" fill-opacity=".8"/>
+  <circle cx="610" cy="132" r="2.5" fill="#E5EAC8" fill-opacity=".7"/>
+  <circle cx="520" cy="67" r="1.8" fill="#E5EAC8" fill-opacity=".6"/>
+  <path d="M37 361c90-75 152-79 229-44 66 30 134 35 212-5 76-39 140-38 205 6v102H37V361Z" fill="#102535" fill-opacity=".64"/>
+  <path d="M40 339c59-44 102-50 158-31 45 15 83 17 130 2" stroke="#52CDAF" stroke-opacity=".14" stroke-width="2"/>
+
+  <rect x="61" y="28" width="287" height="364" rx="30" fill="#080F1A" stroke="#B6DBD1" stroke-opacity=".34" stroke-width="2"/>
+  <rect x="70" y="39" width="269" height="342" rx="23" fill="url(#phoneScreen)"/>
+  <rect x="163" y="46" width="83" height="8" rx="4" fill="#08111D"/>
+  <circle cx="257" cy="50" r="3" fill="#08111D"/>
+  <text x="91" y="76" fill="#D9F3E9" font-family="Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.4">SALAT</text>
+  <circle cx="316" cy="70" r="11" fill="#FFFFFF" fill-opacity=".07"/>
+  <path d="M312 70h8m-4-4v8" stroke="#BCE4D7" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="91" y="105" fill="#85AFA8" font-family="Arial, sans-serif" font-size="9">ASSALAMU'ALAIKUM</text>
+  <text x="91" y="127" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="17" font-weight="700">Waktu Sholat</text>
+  <path d="M91 141h224" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <circle cx="101" cy="158" r="8" fill="#52D2B4" fill-opacity=".14"/>
+  <path d="M97 158h8m-4-4v8" stroke="#65E4C2" stroke-width="1.1" stroke-linecap="round"/>
+  <text x="116" y="157" fill="#E6F3EF" font-family="Arial, sans-serif" font-size="10" font-weight="700">Bandung, Indonesia</text>
+  <text x="116" y="170" fill="#83A69F" font-family="Arial, sans-serif" font-size="8">Kamis, 18 Juni 2026</text>
+  <rect x="88" y="184" width="233" height="93" rx="14" fill="url(#nextPrayer)" stroke="#82E2CA" stroke-opacity=".22"/>
+  <path d="M276 197v66" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <text x="105" y="205" fill="#A4D9C9" font-family="Arial, sans-serif" font-size="8" font-weight="700" letter-spacing="1">SHOLAT BERIKUTNYA</text>
+  <text x="105" y="232" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">Ashar</text>
+  <text x="105" y="252" fill="#A6D7CC" font-family="Arial, sans-serif" font-size="10">Waktu masuk 15:45</text>
+  <circle cx="299" cy="224" r="17" stroke="#FFFFFF" stroke-opacity=".12" stroke-width="3"/>
+  <path d="M299 207a17 17 0 0 1 15 9" stroke="#72E2C2" stroke-width="3" stroke-linecap="round"/>
+  <text x="299" y="224" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="8" font-weight="700" text-anchor="middle" dominant-baseline="middle">21m</text>
+  <text x="91" y="300" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="10" font-weight="700">Jadwal hari ini</text>
+  <text x="286" y="300" fill="#81B9AB" font-family="Arial, sans-serif" font-size="8">LIHAT SEMUA</text>
+  <rect x="88" y="310" width="43" height="53" rx="9" fill="#FFFFFF" fill-opacity=".055"/>
+  <rect x="135" y="310" width="43" height="53" rx="9" fill="#FFFFFF" fill-opacity=".055"/>
+  <rect x="182" y="310" width="43" height="53" rx="9" fill="#62DDBB" fill-opacity=".2" stroke="#62DDBB" stroke-opacity=".5"/>
+  <rect x="229" y="310" width="43" height="53" rx="9" fill="#FFFFFF" fill-opacity=".055"/>
+  <rect x="276" y="310" width="45" height="53" rx="9" fill="#FFFFFF" fill-opacity=".055"/>
+  <text x="109" y="328" fill="#91ACA8" font-family="Arial, sans-serif" font-size="7" text-anchor="middle">SUBUH</text>
+  <text x="109" y="348" fill="#E4F0EC" font-family="Arial, sans-serif" font-size="9" font-weight="700" text-anchor="middle">04:32</text>
+  <text x="156" y="328" fill="#91ACA8" font-family="Arial, sans-serif" font-size="7" text-anchor="middle">DZUHUR</text>
+  <text x="156" y="348" fill="#E4F0EC" font-family="Arial, sans-serif" font-size="9" font-weight="700" text-anchor="middle">11:48</text>
+  <text x="203" y="328" fill="#B8EADB" font-family="Arial, sans-serif" font-size="7" font-weight="700" text-anchor="middle">ASHAR</text>
+  <text x="203" y="348" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="9" font-weight="700" text-anchor="middle">15:45</text>
+  <text x="250" y="328" fill="#91ACA8" font-family="Arial, sans-serif" font-size="7" text-anchor="middle">MAGHRIB</text>
+  <text x="250" y="348" fill="#E4F0EC" font-family="Arial, sans-serif" font-size="9" font-weight="700" text-anchor="middle">17:42</text>
+  <text x="298" y="328" fill="#91ACA8" font-family="Arial, sans-serif" font-size="7" text-anchor="middle">ISYA</text>
+  <text x="298" y="348" fill="#E4F0EC" font-family="Arial, sans-serif" font-size="9" font-weight="700" text-anchor="middle">18:56</text>
+
+  <text x="388" y="175" fill="#84D9C0" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="2">DAILY PRAYER</text>
+  <text x="388" y="207" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">Stay on time.</text>
+  <text x="388" y="228" fill="#B7C9C8" font-family="Arial, sans-serif" font-size="11">A gentle reminder for every</text>
+  <text x="388" y="245" fill="#B7C9C8" font-family="Arial, sans-serif" font-size="11">moment of your day.</text>
+  <rect x="388" y="270" width="265" height="71" rx="13" fill="#FFFFFF" fill-opacity=".07" stroke="#FFFFFF" stroke-opacity=".11"/>
+  <circle cx="418" cy="305" r="16" fill="#5AD7B7" fill-opacity=".17"/>
+  <path d="M412 306c0-4 3-7 6-7s6 3 6 7v4h-12v-4Z" stroke="#78E4C5" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M410 310h16" stroke="#78E4C5" stroke-width="1.6" stroke-linecap="round"/>
+  <text x="446" y="300" fill="#EAF4F1" font-family="Arial, sans-serif" font-size="11" font-weight="700">Prayer notifications</text>
+  <text x="446" y="317" fill="#98B2B0" font-family="Arial, sans-serif" font-size="9">A reminder before each salah</text>
+  <rect x="610" y="293" width="29" height="16" rx="8" fill="#58D8B8"/>
+  <circle cx="630" cy="301" r="5.5" fill="#FFFFFF"/>
+  <path d="M392 366h261" stroke="#FFFFFF" stroke-opacity=".12"/>
+  <text x="392" y="384" fill="#91BDB0" font-family="Arial, sans-serif" font-size="8" letter-spacing="1">MINDFUL MOMENTS · EVERY DAY</text>
 </svg>

@@ -3,13 +3,13 @@
     "id": "bioskop-ticketing",
     "icon": "🎟️",
     "category": "WEB APP · BOOKING",
-    "title": "Bioskop Ticketing",
-    "description": "Aplikasi pemesanan tiket bioskop dengan katalog film, pilihan jadwal dan kursi, serta dashboard admin.",
-    "stack": ["PHP", "MySQL", "Bootstrap 5.3", "CSS3"],
+    "title": "CinemaX — Bioskop Ticketing",
+    "description": "Website bioskop dengan katalog film, pemilihan jadwal dan kursi interaktif, pemesanan tiket, serta dashboard admin.",
+    "stack": ["PHP", "MySQL", "Bootstrap 5.3", "Font Awesome 6", "CSS3"],
     "thumbnail": "/images/projects/bioskop-ticketing.svg",
     "links": {
       "demo": null,
-      "code": "https://github.com/Levizyy/bioskop-ticketing"
+      "code": "https://github.com/Levizyy/bioskopticketing"
     }
   },
   {
@@ -17,7 +17,7 @@
     "icon": "🚆",
     "category": "WEB APP · TRANSPORTASI",
     "title": "Kereta Api Booking",
-    "description": "Sistem pencarian dan pemesanan tiket kereta dengan pengelolaan perjalanan, penumpang, dan laporan.",
+    "description": "Cari jadwal kereta, pilih rute dan jumlah penumpang, lalu pesan tiket dengan dashboard admin serta analitik perjalanan.",
     "stack": ["PHP", "MySQL", "HTML5", "CSS3", "JavaScript", "Chart.js"],
     "thumbnail": "/images/projects/kereta-api-booking.svg",
     "links": {

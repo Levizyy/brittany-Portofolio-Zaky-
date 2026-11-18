@@ -373,7 +373,6 @@ export default function Home() {
                     height={420}
                     className="project-preview"
                   />
-                  <span className="project-preview-label">PROJECT PREVIEW</span>
                 </div>
                 <div className="project-body">
                   <div className="project-type">{project.category}</div>

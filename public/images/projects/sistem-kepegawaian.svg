@@ -1,53 +1,127 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" fill="none">
   <defs>
-    <linearGradient id="bg" x1="25" y1="18" x2="692" y2="407" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#24192D"/>
-      <stop offset="1" stop-color="#1A2342"/>
+    <linearGradient id="background" x1="30" y1="18" x2="683" y2="406" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#21192F"/>
+      <stop offset=".52" stop-color="#1A1F3B"/>
+      <stop offset="1" stop-color="#252548"/>
     </linearGradient>
-    <linearGradient id="panel" x1="83" y1="91" x2="638" y2="354" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#33253C"/>
-      <stop offset="1" stop-color="#252B4B"/>
+    <linearGradient id="panel" x1="50" y1="77" x2="665" y2="370" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22263F"/>
+      <stop offset="1" stop-color="#20243E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="185" y1="170" x2="323" y2="224" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9E83FF"/>
+      <stop offset="1" stop-color="#F07FAB"/>
     </linearGradient>
   </defs>
-  <rect width="720" height="420" rx="26" fill="url(#bg)"/>
-  <circle cx="620" cy="85" r="126" fill="#F46C97" fill-opacity=".07"/>
-  <rect x="38" y="34" width="644" height="352" rx="20" fill="#111322" fill-opacity=".78" stroke="#FFFFFF" stroke-opacity=".12"/>
-  <circle cx="67" cy="62" r="5" fill="#FF7187"/>
-  <circle cx="84" cy="62" r="5" fill="#FFC66D"/>
-  <circle cx="101" cy="62" r="5" fill="#00D9C0"/>
-  <rect x="57" y="88" width="606" height="280" rx="14" fill="url(#panel)" stroke="#FFFFFF" stroke-opacity=".08"/>
-  <rect x="82" y="110" width="146" height="14" rx="5" fill="#FFFFFF" fill-opacity=".86"/>
-  <rect x="82" y="132" width="92" height="6" rx="3" fill="#FFFFFF" fill-opacity=".3"/>
-  <rect x="82" y="158" width="164" height="70" rx="10" fill="#111927" fill-opacity=".64"/>
-  <rect x="100" y="174" width="40" height="40" rx="12" fill="#F58CB1" fill-opacity=".2"/>
-  <circle cx="120" cy="187" r="8" fill="#F58CB1" fill-opacity=".9"/>
-  <path d="M106 207c1-8 6-12 14-12s13 4 14 12" fill="#F58CB1" fill-opacity=".84"/>
-  <rect x="153" y="178" width="72" height="6" rx="3" fill="#FFFFFF" fill-opacity=".7"/>
-  <rect x="153" y="191" width="54" height="5" rx="2.5" fill="#FFFFFF" fill-opacity=".25"/>
-  <rect x="153" y="204" width="39" height="5" rx="2.5" fill="#00D9C0" fill-opacity=".72"/>
-  <rect x="258" y="158" width="164" height="70" rx="10" fill="#111927" fill-opacity=".64"/>
-  <rect x="276" y="174" width="40" height="40" rx="12" fill="#7B9CFF" fill-opacity=".2"/>
-  <circle cx="296" cy="187" r="8" fill="#7B9CFF" fill-opacity=".9"/>
-  <path d="M282 207c1-8 6-12 14-12s13 4 14 12" fill="#7B9CFF" fill-opacity=".84"/>
-  <rect x="329" y="178" width="72" height="6" rx="3" fill="#FFFFFF" fill-opacity=".7"/>
-  <rect x="329" y="191" width="54" height="5" rx="2.5" fill="#FFFFFF" fill-opacity=".25"/>
-  <rect x="329" y="204" width="39" height="5" rx="2.5" fill="#00D9C0" fill-opacity=".72"/>
-  <rect x="434" y="158" width="202" height="70" rx="10" fill="#111927" fill-opacity=".64"/>
-  <path d="M458 204l25-16 20 9 31-23 27 16 31-18" stroke="#00D9C0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="483" cy="188" r="4" fill="#00D9C0"/>
-  <circle cx="534" cy="174" r="4" fill="#00D9C0"/>
-  <circle cx="588" cy="172" r="4" fill="#00D9C0"/>
-  <rect x="82" y="243" width="554" height="101" rx="10" fill="#111927" fill-opacity=".55"/>
-  <rect x="98" y="257" width="70" height="5" rx="2.5" fill="#FFFFFF" fill-opacity=".35"/>
-  <rect x="188" y="257" width="91" height="5" rx="2.5" fill="#FFFFFF" fill-opacity=".35"/>
-  <rect x="299" y="257" width="71" height="5" rx="2.5" fill="#FFFFFF" fill-opacity=".35"/>
-  <rect x="390" y="257" width="80" height="5" rx="2.5" fill="#FFFFFF" fill-opacity=".35"/>
-  <rect x="496" y="252" width="66" height="15" rx="7.5" fill="#00D9C0" fill-opacity=".18"/>
-  <rect x="98" y="282" width="48" height="6" rx="3" fill="#FFFFFF" fill-opacity=".7"/>
-  <rect x="188" y="282" width="65" height="6" rx="3" fill="#FFFFFF" fill-opacity=".48"/>
-  <rect x="299" y="279" width="52" height="13" rx="6.5" fill="#F6B95F" fill-opacity=".72"/>
-  <path d="M390 285h58" stroke="#FFFFFF" stroke-opacity=".38" stroke-width="5" stroke-linecap="round"/>
-  <rect x="504" y="279" width="48" height="13" rx="6.5" fill="#00D9C0" fill-opacity=".72"/>
-  <path d="M98 306h51m39 0h79m32 0h54m37 0h48m66 0h42" stroke="#FFFFFF" stroke-opacity=".13" stroke-width="5" stroke-linecap="round"/>
-  <path d="M98 327h70m20 0h63m48 0h56m29 0h57m42 0h80" stroke="#FFFFFF" stroke-opacity=".1" stroke-width="5" stroke-linecap="round"/>
+  <rect width="720" height="420" rx="26" fill="url(#background)"/>
+  <circle cx="628" cy="72" r="137" fill="#F36F9D" fill-opacity=".09"/>
+  <circle cx="83" cy="386" r="125" fill="#8B7BFF" fill-opacity=".07"/>
+  <rect x="34" y="28" width="652" height="364" rx="22" fill="#0F1220" fill-opacity=".88" stroke="#FFFFFF" stroke-opacity=".14"/>
+  <circle cx="62" cy="55" r="5" fill="#FF7187"/>
+  <circle cx="79" cy="55" r="5" fill="#FFC66D"/>
+  <circle cx="96" cy="55" r="5" fill="#43E2C5"/>
+  <rect x="51" y="77" width="618" height="296" rx="15" fill="url(#panel)"/>
+
+  <rect x="51" y="77" width="111" height="296" rx="15" fill="#171B30"/>
+  <path d="M162 78v294" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <rect x="68" y="95" width="24" height="24" rx="7" fill="#A88BFF" fill-opacity=".2"/>
+  <circle cx="80" cy="102" r="4" fill="#C5AEFF"/>
+  <path d="M72 114c1-5 4-7 8-7s7 2 8 7" stroke="#C5AEFF" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="99" y="105" fill="#F5F0FF" font-family="Arial, sans-serif" font-size="9" font-weight="700">PEOPLE</text>
+  <text x="99" y="116" fill="#A5A1BB" font-family="Arial, sans-serif" font-size="7">MANAGEMENT</text>
+  <text x="69" y="145" fill="#777B98" font-family="Arial, sans-serif" font-size="7" font-weight="700" letter-spacing="1">MENU UTAMA</text>
+  <rect x="63" y="154" width="86" height="27" rx="7" fill="url(#accent)" fill-opacity=".22"/>
+  <rect x="71" y="162" width="11" height="11" rx="2" stroke="#D3C4FF" stroke-width="1.3"/>
+  <path d="M73 166h7m-7 3h7" stroke="#D3C4FF" stroke-width="1"/>
+  <text x="89" y="171" fill="#F3EDFF" font-family="Arial, sans-serif" font-size="8" font-weight="700">Dashboard</text>
+  <circle cx="76" cy="197" r="5" stroke="#888CA7" stroke-width="1.2"/>
+  <path d="M68 210c1-5 4-8 8-8s7 3 8 8" stroke="#888CA7" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="89" y="201" fill="#B7B7C9" font-family="Arial, sans-serif" font-size="8">Data Pegawai</text>
+  <rect x="70" y="219" width="12" height="12" rx="2" stroke="#888CA7" stroke-width="1.2"/>
+  <path d="M73 216v5m6-5v5m-8 2h10" stroke="#888CA7" stroke-width="1.1" stroke-linecap="round"/>
+  <text x="89" y="229" fill="#B7B7C9" font-family="Arial, sans-serif" font-size="8">Presensi</text>
+  <path d="M71 249h10v10H71zM73 247h6" stroke="#888CA7" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="89" y="257" fill="#B7B7C9" font-family="Arial, sans-serif" font-size="8">Cuti &amp; Izin</text>
+  <path d="M71 278h11m-11 4h11m-11 4h7" stroke="#888CA7" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="89" y="285" fill="#B7B7C9" font-family="Arial, sans-serif" font-size="8">Laporan</text>
+  <path d="M67 344h79" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <circle cx="79" cy="358" r="9" fill="#D879AA" fill-opacity=".3"/>
+  <text x="79" y="361" fill="#FFE5F0" font-family="Arial, sans-serif" font-size="7" font-weight="700" text-anchor="middle">ZK</text>
+  <text x="94" y="357" fill="#E8E4F0" font-family="Arial, sans-serif" font-size="7" font-weight="700">Zaky F.</text>
+  <text x="94" y="367" fill="#8E91A8" font-family="Arial, sans-serif" font-size="6">Administrator</text>
+
+  <text x="179" y="105" fill="#F6F4FC" font-family="Arial, sans-serif" font-size="14" font-weight="700">Dashboard</text>
+  <text x="179" y="120" fill="#989BB3" font-family="Arial, sans-serif" font-size="8">Ringkasan aktivitas dan data pegawai</text>
+  <rect x="566" y="91" width="39" height="23" rx="7" fill="#FFFFFF" fill-opacity=".06"/>
+  <path d="M579 99a5 5 0 0 1 10 0v5l2 2h-14l2-2v-5Z" stroke="#C7C4D8" stroke-width="1.2" stroke-linejoin="round"/>
+  <circle cx="588" cy="98" r="2" fill="#F27EA7"/>
+  <circle cx="632" cy="102" r="14" fill="#D879AA" fill-opacity=".28"/>
+  <text x="632" y="105" fill="#FFE5F0" font-family="Arial, sans-serif" font-size="8" font-weight="700" text-anchor="middle">ZF</text>
+
+  <rect x="178" y="135" width="146" height="68" rx="9" fill="#2B2F4A" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <circle cx="198" cy="156" r="11" fill="#987BFF" fill-opacity=".18"/>
+  <circle cx="198" cy="153" r="3" fill="#B9A7FF"/>
+  <path d="M192 162c1-4 3-6 6-6s5 2 6 6" stroke="#B9A7FF" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="216" y="153" fill="#A9AAC0" font-family="Arial, sans-serif" font-size="7">TOTAL PEGAWAI</text>
+  <text x="190" y="185" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="20" font-weight="700">128</text>
+  <text x="250" y="184" fill="#88D9B7" font-family="Arial, sans-serif" font-size="7">+8 bulan ini</text>
+
+  <rect x="332" y="135" width="146" height="68" rx="9" fill="#2B2F4A" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <circle cx="352" cy="156" r="11" fill="#48D3B0" fill-opacity=".15"/>
+  <path d="M347 155h10v7h-10zM349 153v2m6-2v2" stroke="#76E1C5" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="370" y="153" fill="#A9AAC0" font-family="Arial, sans-serif" font-size="7">HADIR HARI INI</text>
+  <text x="344" y="185" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="20" font-weight="700">116</text>
+  <text x="404" y="184" fill="#88D9B7" font-family="Arial, sans-serif" font-size="7">90.6%</text>
+
+  <rect x="486" y="135" width="164" height="68" rx="9" fill="#2B2F4A" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <circle cx="506" cy="156" r="11" fill="#F6B95F" fill-opacity=".15"/>
+  <path d="M501 151h10v10h-10zM503 149v3m6-3v3" stroke="#F4C87D" stroke-width="1.1" stroke-linecap="round"/>
+  <text x="524" y="153" fill="#A9AAC0" font-family="Arial, sans-serif" font-size="7">PENGAJUAN CUTI</text>
+  <text x="498" y="185" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="20" font-weight="700">07</text>
+  <rect x="555" y="174" width="77" height="15" rx="7.5" fill="#F0B45B" fill-opacity=".16"/>
+  <text x="593.5" y="184" fill="#F5CD8D" font-family="Arial, sans-serif" font-size="6.5" text-anchor="middle">PERLU DITINJAU</text>
+
+  <rect x="178" y="213" width="294" height="87" rx="9" fill="#2B2F4A" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <text x="192" y="231" fill="#F0EEF8" font-family="Arial, sans-serif" font-size="9" font-weight="700">Kehadiran Mingguan</text>
+  <text x="192" y="244" fill="#9397B0" font-family="Arial, sans-serif" font-size="7">Tingkat kehadiran pegawai</text>
+  <path d="M197 280h253M197 263h253M197 247h253" stroke="#FFFFFF" stroke-opacity=".06"/>
+  <path d="M202 277c24-3 27-16 51-12s34-15 58-10 38-9 58-5 43-14 72-18" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M202 277c24-3 27-16 51-12s34-15 58-10 38-9 58-5 43-14 72-18v48H202v-3Z" fill="#A886FF" fill-opacity=".08"/>
+  <circle cx="260" cy="265" r="3" fill="#B996FF"/>
+  <circle cx="369" cy="250" r="3" fill="#D98DDA"/>
+  <circle cx="441" cy="232" r="3" fill="#F181A9"/>
+  <text x="201" y="293" fill="#8589A4" font-family="Arial, sans-serif" font-size="6">SEN</text>
+  <text x="249" y="293" fill="#8589A4" font-family="Arial, sans-serif" font-size="6">SEL</text>
+  <text x="298" y="293" fill="#8589A4" font-family="Arial, sans-serif" font-size="6">RAB</text>
+  <text x="347" y="293" fill="#8589A4" font-family="Arial, sans-serif" font-size="6">KAM</text>
+  <text x="396" y="293" fill="#8589A4" font-family="Arial, sans-serif" font-size="6">JUM</text>
+  <text x="438" y="293" fill="#8589A4" font-family="Arial, sans-serif" font-size="6">SAB</text>
+
+  <rect x="480" y="213" width="170" height="87" rx="9" fill="#2B2F4A" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <text x="493" y="231" fill="#F0EEF8" font-family="Arial, sans-serif" font-size="9" font-weight="700">Status Kehadiran</text>
+  <circle cx="527" cy="264" r="20" stroke="#464863" stroke-width="7"/>
+  <path d="M527 244a20 20 0 0 1 18 11" stroke="#5DD8B8" stroke-width="7" stroke-linecap="round"/>
+  <path d="M545 255a20 20 0 0 1-12 28" stroke="#9D84FC" stroke-width="7" stroke-linecap="round"/>
+  <text x="527" y="267" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="8" font-weight="700" text-anchor="middle">90%</text>
+  <circle cx="568" cy="251" r="3" fill="#5DD8B8"/>
+  <text x="577" y="254" fill="#C7C7D7" font-family="Arial, sans-serif" font-size="7">Hadir</text>
+  <circle cx="568" cy="266" r="3" fill="#9D84FC"/>
+  <text x="577" y="269" fill="#C7C7D7" font-family="Arial, sans-serif" font-size="7">Terlambat</text>
+  <circle cx="568" cy="281" r="3" fill="#555A77"/>
+  <text x="577" y="284" fill="#C7C7D7" font-family="Arial, sans-serif" font-size="7">Tidak hadir</text>
+
+  <rect x="178" y="310" width="472" height="48" rx="9" fill="#2B2F4A" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <text x="191" y="327" fill="#F0EEF8" font-family="Arial, sans-serif" font-size="8" font-weight="700">Aktivitas Presensi</text>
+  <text x="246" y="341" fill="#8589A4" font-family="Arial, sans-serif" font-size="6.5">NAMA PEGAWAI</text>
+  <text x="350" y="341" fill="#8589A4" font-family="Arial, sans-serif" font-size="6.5">JAM MASUK</text>
+  <text x="441" y="341" fill="#8589A4" font-family="Arial, sans-serif" font-size="6.5">BAGIAN</text>
+  <text x="547" y="341" fill="#8589A4" font-family="Arial, sans-serif" font-size="6.5" text-anchor="middle">STATUS</text>
+  <circle cx="254" cy="352" r="6" fill="#D879AA" fill-opacity=".4"/>
+  <text x="254" y="354.5" fill="#FFE5F0" font-family="Arial, sans-serif" font-size="4.5" text-anchor="middle">AN</text>
+  <text x="266" y="354" fill="#E2E0EC" font-family="Arial, sans-serif" font-size="6.5">Andi Nugraha</text>
+  <text x="350" y="354" fill="#D0CFDC" font-family="Arial, sans-serif" font-size="6.5">08:02</text>
+  <text x="441" y="354" fill="#D0CFDC" font-family="Arial, sans-serif" font-size="6.5">Operasional</text>
+  <rect x="518" y="345" width="58" height="14" rx="7" fill="#5DD8B8" fill-opacity=".14"/>
+  <text x="547" y="352" fill="#83E3C6" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" dominant-baseline="middle">HADIR</text>
 </svg>

@@ -1,40 +1,77 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" fill="none">
   <defs>
-    <linearGradient id="bg" x1="20" y1="20" x2="700" y2="410" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#102532"/>
-      <stop offset="1" stop-color="#132847"/>
+    <linearGradient id="background" x1="30" y1="10" x2="690" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10252D"/>
+      <stop offset="1" stop-color="#101A31"/>
     </linearGradient>
-    <linearGradient id="card" x1="75" y1="96" x2="644" y2="340" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#163949"/>
-      <stop offset="1" stop-color="#1D3155"/>
+    <linearGradient id="panel" x1="70" y1="88" x2="652" y2="369" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A3941"/>
+      <stop offset="1" stop-color="#1B2A43"/>
+    </linearGradient>
+    <linearGradient id="button" x1="505" y1="326" x2="625" y2="363" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#26E0C2"/>
+      <stop offset="1" stop-color="#4DB6FF"/>
     </linearGradient>
   </defs>
-  <rect width="720" height="420" rx="26" fill="url(#bg)"/>
-  <circle cx="643" cy="68" r="124" fill="#00D9C0" fill-opacity=".07"/>
-  <rect x="38" y="34" width="644" height="352" rx="20" fill="#0B1725" fill-opacity=".78" stroke="#FFFFFF" stroke-opacity=".12"/>
-  <circle cx="67" cy="62" r="5" fill="#FF7187"/>
-  <circle cx="84" cy="62" r="5" fill="#FFC66D"/>
-  <circle cx="101" cy="62" r="5" fill="#00D9C0"/>
-  <rect x="57" y="88" width="606" height="280" rx="14" fill="url(#card)" stroke="#FFFFFF" stroke-opacity=".08"/>
-  <rect x="82" y="111" width="126" height="15" rx="5" fill="#FFFFFF" fill-opacity=".85"/>
-  <rect x="82" y="135" width="74" height="6" rx="3" fill="#00D9C0" fill-opacity=".7"/>
-  <rect x="82" y="162" width="555" height="120" rx="13" fill="#0D1D30" fill-opacity=".74" stroke="#FFFFFF" stroke-opacity=".09"/>
-  <circle cx="130" cy="209" r="23" stroke="#00D9C0" stroke-width="2"/>
-  <circle cx="589" cy="209" r="23" stroke="#7D91FF" stroke-width="2"/>
-  <path d="M161 209h94l27-23h126l27 23h123" stroke="#00D9C0" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 8"/>
-  <circle cx="357" cy="186" r="5" fill="#00D9C0"/>
-  <circle cx="295" cy="209" r="5" fill="#00D9C0"/>
-  <circle cx="425" cy="209" r="5" fill="#00D9C0"/>
-  <path d="M124 204h12m-6-6v22m-6-1h12" stroke="#00D9C0" stroke-width="2" stroke-linecap="round"/>
-  <path d="M583 204h12m-6-6v22m-6-1h12" stroke="#7D91FF" stroke-width="2" stroke-linecap="round"/>
-  <rect x="102" y="244" width="56" height="6" rx="3" fill="#FFFFFF" fill-opacity=".46"/>
-  <rect x="560" y="244" width="58" height="6" rx="3" fill="#FFFFFF" fill-opacity=".46"/>
-  <rect x="82" y="303" width="161" height="42" rx="10" fill="#FFFFFF" fill-opacity=".055"/>
-  <rect x="99" y="315" width="76" height="6" rx="3" fill="#FFFFFF" fill-opacity=".7"/>
-  <rect x="99" y="328" width="117" height="5" rx="2.5" fill="#FFFFFF" fill-opacity=".2"/>
-  <rect x="253" y="303" width="161" height="42" rx="10" fill="#FFFFFF" fill-opacity=".055"/>
-  <rect x="270" y="315" width="76" height="6" rx="3" fill="#FFFFFF" fill-opacity=".7"/>
-  <rect x="270" y="328" width="117" height="5" rx="2.5" fill="#FFFFFF" fill-opacity=".2"/>
-  <rect x="472" y="303" width="165" height="42" rx="10" fill="#00D9C0" fill-opacity=".84"/>
-  <rect x="505" y="320" width="100" height="7" rx="3.5" fill="#071C25" fill-opacity=".72"/>
+  <rect width="720" height="420" rx="26" fill="url(#background)"/>
+  <circle cx="620" cy="68" r="132" fill="#33E2C7" fill-opacity=".08"/>
+  <circle cx="107" cy="387" r="120" fill="#4D86FF" fill-opacity=".06"/>
+  <rect x="34" y="28" width="652" height="364" rx="22" fill="#0C1522" fill-opacity=".82" stroke="#FFFFFF" stroke-opacity=".13"/>
+  <circle cx="62" cy="55" r="5" fill="#FF7187"/>
+  <circle cx="79" cy="55" r="5" fill="#FFC66D"/>
+  <circle cx="96" cy="55" r="5" fill="#43E2C5"/>
+  <rect x="51" y="77" width="618" height="296" rx="15" fill="url(#panel)"/>
+
+  <path d="M75 101h21v21H75z" rx="6" fill="#36E0C5" fill-opacity=".15"/>
+  <path d="M81 108h9v7h-9zM83 106v-2h5v2" stroke="#4CE5CC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="105" y="116" fill="#F2FAFC" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing=".4">RAILWAY BOOKING</text>
+  <text x="548" y="115" fill="#B2C7D0" font-family="Arial, sans-serif" font-size="10">MY BOOKINGS</text>
+  <circle cx="641" cy="111" r="11" fill="#FFFFFF" fill-opacity=".1"/>
+  <circle cx="641" cy="108" r="3" fill="#C5D8DE"/>
+  <path d="M635 116c1-3 3-4 6-4s5 1 6 4" stroke="#C5D8DE" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M75 134h570" stroke="#FFFFFF" stroke-opacity=".09"/>
+
+  <text x="78" y="160" fill="#83A7B3" font-family="Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.6">YOUR NEXT JOURNEY</text>
+  <text x="78" y="184" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="18" font-weight="700">Find your train</text>
+  <rect x="539" y="148" width="105" height="27" rx="8" fill="#FFFFFF" fill-opacity=".06"/>
+  <circle cx="554" cy="161" r="3" fill="#54E3C9"/>
+  <text x="564" y="165" fill="#C9D9DE" font-family="Arial, sans-serif" font-size="9">One way</text>
+
+  <rect x="77" y="199" width="566" height="91" rx="12" fill="#0D1A27" fill-opacity=".62" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <circle cx="105" cy="231" r="7" stroke="#51E0C5" stroke-width="2"/>
+  <circle cx="105" cy="260" r="7" stroke="#91A5FF" stroke-width="2"/>
+  <path d="M105 239v13" stroke="#7BCFC7" stroke-width="1.5" stroke-dasharray="2 3"/>
+  <text x="125" y="224" fill="#88A7B2" font-family="Arial, sans-serif" font-size="9" letter-spacing=".8">FROM</text>
+  <text x="125" y="241" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="13" font-weight="700">Jakarta</text>
+  <text x="125" y="267" fill="#88A7B2" font-family="Arial, sans-serif" font-size="9" letter-spacing=".8">TO</text>
+  <text x="125" y="282" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="13" font-weight="700">Bandung</text>
+  <path d="M253 246h189" stroke="#3B6C75" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <path d="M278 246h138" stroke="#4EE0C6" stroke-width="1.5"/>
+  <circle cx="253" cy="246" r="3" fill="#4EE0C6"/>
+  <circle cx="442" cy="246" r="3" fill="#91A5FF"/>
+  <rect x="333" y="228" width="44" height="34" rx="10" fill="#193D46" stroke="#4EE0C6" stroke-opacity=".45"/>
+  <path d="M342 251v-10c0-4 3-7 7-7h12c4 0 7 3 7 7v10c0 3-2 5-5 5h-16c-3 0-5-2-5-5Z" fill="#42DCC2"/>
+  <path d="M345 243h20v7h-20z" fill="#17323D"/>
+  <circle cx="348" cy="257" r="2" fill="#B8F8EA"/>
+  <circle cx="362" cy="257" r="2" fill="#B8F8EA"/>
+  <text x="230" y="274" fill="#B9CED4" font-family="Arial, sans-serif" font-size="9">GAMBIR</text>
+  <text x="423" y="274" fill="#B9CED4" font-family="Arial, sans-serif" font-size="9">BANDUNG</text>
+  <text x="516" y="224" fill="#88A7B2" font-family="Arial, sans-serif" font-size="9">TRAVEL TIME</text>
+  <text x="516" y="245" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="15" font-weight="700">2h 45m</text>
+  <text x="516" y="266" fill="#8BA9B3" font-family="Arial, sans-serif" font-size="9">Direct train</text>
+
+  <rect x="77" y="303" width="187" height="49" rx="10" fill="#FFFFFF" fill-opacity=".055"/>
+  <circle cx="98" cy="328" r="10" fill="#38D9C0" fill-opacity=".13"/>
+  <path d="M94 324h8v8h-8zM95 322v2m6-2v2" stroke="#55E5CD" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="116" y="323" fill="#8EABB4" font-family="Arial, sans-serif" font-size="8" letter-spacing=".7">DEPARTURE</text>
+  <text x="116" y="339" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="11" font-weight="700">08:30 AM · 18 Jun</text>
+  <rect x="275" y="303" width="155" height="49" rx="10" fill="#FFFFFF" fill-opacity=".055"/>
+  <circle cx="296" cy="328" r="10" fill="#91A5FF" fill-opacity=".14"/>
+  <path d="M292 326h8m-8 3h8m-6-6h4" stroke="#A8B6FF" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="314" y="323" fill="#8EABB4" font-family="Arial, sans-serif" font-size="8" letter-spacing=".7">PASSENGERS</text>
+  <text x="314" y="339" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="11" font-weight="700">2 Adults</text>
+  <text x="452" y="319" fill="#89A7B1" font-family="Arial, sans-serif" font-size="8" letter-spacing=".8">STARTING FROM</text>
+  <text x="452" y="340" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="15" font-weight="700">Rp185.000</text>
+  <rect x="562" y="313" width="81" height="31" rx="8" fill="url(#button)"/>
+  <text x="578" y="333" fill="#0B252C" font-family="Arial, sans-serif" font-size="10" font-weight="700">BOOK NOW</text>
 </svg>
